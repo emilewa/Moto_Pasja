@@ -1,0 +1,208 @@
+﻿
+ body
+ { 
+	background-image: url(tlo.jpg);
+	background-repeat:repeat-y;
+	background-position:top;
+	background-color: #303030;
+	font-family: 'Lato', sans-serif;
+	font-size:16px;
+	color:#ffffff;
+ }
+ #container
+ {
+ width:1000px;
+ margin-left:auto;
+ margin-right:auto;
+
+ }
+
+
+ #logo
+ {
+	color:#303030;
+	margin-top:20px;
+	margin-bottom:25px;
+	padding:10px;
+	height:170px;
+	background-color:#810283;
+	opacity:0.85;
+	}
+
+ #left
+ {
+	float:left;
+	width:700px;
+	text-align:left;
+ }
+
+
+ #menu
+ {
+ 
+ margin-top:20px;
+ color:#ffffff;
+ padding:10px;
+ opacity:0.8;
+ height:300px;
+ }
+
+
+
+
+ #content
+ {
+ 
+ padding: 40px;
+ width:930px;
+ text-align:justify;
+ opacity:0.8;
+ }
+
+
+  .r1
+ {
+	width:960px;
+	margin:20px;
+	height:245px;
+	text-align:left;
+ }
+
+ .r3
+{	
+	float:left;
+	padding:10px;
+	width:300px;
+	height:225px;
+	opacity:0.8;
+	
+}
+.r3:hover
+{
+	opacity:1;	
+	cursor:pointer;
+}
+
+
+
+.r5
+{
+	
+	float:left;
+	padding:10px;
+	width:450px;
+	height:225px;
+	opacity:0.8;
+}
+
+.r5:hover
+{
+	opacity:1;	
+	cursor:pointer;
+}
+
+
+
+ #footer
+ {
+ clear:both;
+ color:white;
+ text-align:center;
+ padding:20px;
+ font-size:16px;
+ background-color:#303030;
+  opacity:0.8;
+  }
+
+ .option
+ {
+ float:left;
+ min-width:50px;
+ height: 25px;
+ font-size:20px;
+ padding:10px;
+ border-right:3px dotted #444444;
+ opacity:0.8;
+
+ }
+ .option:hover
+ {
+ color:#f40383;
+ cursor:pointer;
+ }
+
+ .option1
+ {
+ font-size:20px;
+ height: 40px;
+ padding:10px;
+ border-bottom:2px dotted #404040;
+
+ }
+
+ .option1:hover
+ {
+	background-color:#f40383;
+	color:white;
+	cursor:pointer;
+ }
+
+
+
+ ol {
+        list-style-type:none;
+        padding:10px;
+        margin:5px;
+        background-color:#303030;
+        font-size:20px;
+        height:2em;
+        line-height:2em;
+        text-align:center;
+      }
+ol a {
+        display:block;
+        text-decoration:none;
+        color:#150027;
+        padding:0,5px;
+		font-weight:900;
+      }
+
+ol > li {
+        float:left;
+        width:185px;
+        margin-left:1px;
+        background-color:#bd81f3;
+        height:2em;
+      }
+
+ol > li:first-child {
+        margin-left:0;
+      }
+ol > li:hover {
+        background-color:#0e0e0f;
+      }
+ol > li:hover > a {
+        color:#09C;
+      }
+ol > li:hover > ul {
+        display:block;
+      }
+ol > li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+ol > li > ul > li {
+        position:relative;
+        background-color:#EEE;
+      }
+ol > li > ul > li > a {
+        border-top:1px solid #FFF;
+      }
+ol > li > ul > li:hover {
+        background-color:#DDD;
+      }
+ol > li > ul > li:hover > a {
+        color:#09C;
+      }
